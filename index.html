@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>灵犀绘梦 - AI文生图创作平台</title>
+    <meta name="description" content="通过AI将文字转化为精美图片，支持单图生成和故事图集创作" />
+
+    <!-- PWA manifest -->
+    <link rel="manifest" href="/ai-image-generator/manifest.json" />
+
+    <!-- iOS Safari PWA 支持 -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="灵犀绘梦" />
+    <link rel="apple-touch-icon" href="/ai-image-generator/apple-touch-icon.png" />
+
+    <!-- 主题色 -->
+    <meta name="theme-color" content="#7c3aed" />
+    <meta name="msapplication-TileColor" content="#7c3aed" />
+
+    <!-- 图标 -->
+    <link rel="icon" type="image/png" sizes="192x192" href="/ai-image-generator/icon-192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/ai-image-generator/icon-512.png" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
